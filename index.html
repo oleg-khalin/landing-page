@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- =============== Meta Tags (start) =============== -->
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#fff">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#fff">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<!-- =============== Meta Tags (end) =============== -->
+
+	<!-- =============== Title (start) =============== -->
+	<title>Title</title>
+	<!-- =============== Title (end) =============== -->
+
+	<!-- =============== Favicon Ico (start) =============== -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- =============== Favicon Ico (end) =============== -->
+
+	<!-- =============== Stylesheets (start) =============== -->
+	<link rel='stylesheet' href='css/bootstrap-grid.min.css'>
+	<link rel='stylesheet' href='css/font-awesome.min.css'>
+	<link rel='stylesheet' href='css/magnific-popup.css'>
+	<link rel='stylesheet' href='css/animate.min.css'>
+	<link rel='stylesheet' href='css/main.css'>
+		<!-- =============== Colors (start) =============== -->
+		<link rel='stylesheet' href='css/skins/blue.css'>
+		<!-- <link rel='stylesheet' href='css/skins/pink.css'> -->
+		<!-- <link rel='stylesheet' href='css/skins/purple.css'> -->
+		<!-- <link rel='stylesheet' href='css/skins/tomato.css'> -->
+		<!-- =============== Colors (end) =============== -->
+	<!-- =============== Stylesheets (end) =============== -->
+</head>
+<body>
+	
+	<!-- =============== Preloader (start) =============== -->
+	<div class='loader'>
+		<div class='loader_inner' style="background-image: url('img/preloader.gif');">
+		</div>
+	</div>
+	<!-- =============== Preloader (end) =============== -->
+
+	<!-- =============== Header (start) =============== -->
+	<header class='main_head bg_dark' data-parallax='scroll' data-image-src='img/bg.jpg' data-z-index='1'>
+		<!-- =============== Topline (logo + menu) (start) =============== -->
+		<div class='container'>
+			<div class='row'>
+				<div class='col-md-12'>
+					<!-- =============== Logo (start) =============== -->
+					<div class='logo_container'>
+						<!-- =============== LogoSVG (start) =============== -->
+						<svg id='svg2' version='1.1' viewBox='0 0 197.21155 197.21638' xmlns='http://www.w3.org/2000/svg'><path d='m 85.639184,196.34986 c -8.98123,-1.10864 -26.37065,-6.72944 -34,-10.98986 C 5.3202742,159.49442 -12.920616,103.30115 9.6507445,56.009515 35.258674,2.3556684 103.14827,-16.573789 152.80625,16.093889 c 9.38469,6.173749 22.09904,18.888095 28.27279,28.272782 24.99997,38.002345 20.5737,88.354329 -10.7064,121.792849 -11.28666,12.06547 -24.35624,20.32658 -40.73346,25.74709 -15.42819,5.10639 -28.18874,6.39499 -43.999996,4.44325 z m 38.999996,-11.29283 c 15.41119,-5.00098 25.17271,-10.7626 36.3615,-21.46194 11.70973,-11.19749 18.92933,-22.87913 24.14107,-39.06134 2.17289,-6.7467 2.84123,-11.07839 3.2401,-21 0.69381,-17.257746 0.53639,-17.635282 -4.13864,-9.925231 -14.18515,23.394141 -35.33853,44.351601 -55.10403,54.593711 -13.43669,6.96263 -20.99782,8.83672 -35.499996,8.79897 -13.86683,-0.0361 -20.46689,-1.69669 -29.96055,-7.53821 l -4.95062,-3.04614 -9.55314,3.57807 c -5.25423,1.96794 -11.79922,4.09652 -14.54442,4.73019 -2.7452,0.63367 -4.99127,1.45101 -4.99127,1.81632 0,1.15794 13.31395,13.48867 18,16.67071 16.64977,11.30596 31.44785,15.43875 53.499996,14.94144 13.09158,-0.29524 16.08144,-0.68921 23.5,-3.09655 z m -15.06389,-40.11066 c 24.5486,-5.9367 53.58095,-31.17002 71.03294,-61.73794 l 5.10375,-8.939432 -1.67558,-5.117626 C 179.80634,56.231758 171.74636,43.74801 161.00068,33.472398 149.77427,22.737083 138.02714,15.903199 123.10324,11.425586 113.07832,8.4178144 91.918094,7.6951014 80.549574,9.9721954 c -9.02888,1.8084666 -20.57318,6.3638476 -29.72893,11.7310296 -7.32612,4.294636 -24.71735,21.68586 -29.01198,29.01198 -10.1557,17.324373 -13.6655198,31.384748 -12.9128295,51.728935 0.55535,15.01039 2.1565895,21.68909 8.4727695,35.3396 3.22555,6.97107 3.86775,7.75 6.38955,7.75 3.17959,0 17.452,-3.221 23.19236,-5.23405 l 3.81134,-1.33658 -3.16228,-3.96468 c -9.74195,-12.21388 -14.69959,-32.39019 -12.08115,-49.167051 4.49452,-28.797162 26.36933,-55.777779 51.44164,-63.448647 10.25576,-3.137749 22.140686,-2.373203 31.013976,1.9951 20.82199,10.250635 25.47632,36.131513 11.11579,61.810536 -9.52176,17.026522 -32.857026,39.632002 -52.200646,50.568142 -2.8875,1.63248 -5.25,3.31405 -5.25,3.73683 0,0.80005 5.95989,3.23154 12,4.89571 5.51806,1.52033 18.753026,1.29443 25.936106,-0.44268 z M 68.417704,131.63644 c 24.85553,-12.58662 49.568806,-37.101981 57.354776,-56.895433 1.80033,-4.576813 2.25706,-7.787016 2.30585,-16.207261 0.0532,-9.179719 -0.24448,-11.115491 -2.36739,-15.394909 -2.93145,-5.909281 -7.65775,-10.810081 -13.34832,-13.841145 -3.47734,-1.852196 -5.81707,-2.250871 -13.244467,-2.256775 -8.155809,-0.0065 -9.651259,0.303093 -15.592069,3.227744 -11.4838,5.653457 -20.43389,15.358172 -27.91171,30.265085 -10.8455,21.620318 -12.44987,42.106384 -4.58144,58.500004 2.86279,5.96452 9.76074,15.5 11.21269,15.5 0.24782,0 3.02526,-1.30379 6.17208,-2.89731 z'/></svg>
+						<!-- =============== LogoSVG (end) =============== -->
+					</div>
+					<!-- =============== Logo (end) =============== -->
+
+					<!-- =============== Menu button (start) =============== -->
+					<button class='toggle_mnu'>
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</button>
+					<!-- =============== Menu button (end) =============== -->
+
+					<!-- =============== Menu (start) =============== -->
+					<nav class='top_mnu'>
+						<ul>
+							<li><a href='#about'>About me</a></li>
+							<li><a href='#resume'>Resume</a></li>
+							<li><a href='#portfolio'>Portfolio</a></li>
+							<li><a href='#contacts'>Contacts</a></li>
+						</ul>
+					</nav>
+					<!-- =============== Menu (end) =============== -->
+				</div>
+			</div>
+		</div>
+		<!-- =============== Topline (logo + menu) (end) =============== -->
+
+		<!-- =============== Header text (start) =============== -->
+		<div class='top_wrapper'>
+			<div class='top_descr'>
+				<div class='top_centered'>
+					<div class='top_text'>
+						<h1>Khalin Oleg</h1>
+						<p>Web Designer, Front-end Developer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =============== Header text (end) =============== -->
+	</header>
+	<!-- =============== Header (end) =============== -->
+
+	<!-- =============== About me (start) =============== -->
+	<section id='about' class='s_about bg_light'>
+		<!-- =============== Section title (start) =============== -->
+		<div class='section_header'>
+			<h2>About me</h2>
+			<!-- =============== Section subtitle (start) =============== -->
+			<div class='s_descr_wrap'>
+				<div class='s_descr'>Let's get to know each other</div>
+			</div>
+			<!-- =============== Section subtitle (end) =============== -->
+		</div>
+		<!-- =============== Section title (end) =============== -->
+
+		<!-- =============== Section content (start) =============== -->
+		<div class='section_content'>
+			<div class='container'>
+				<div class='row'>
+					<!-- =============== Photo (start) =============== -->
+					<div class='col-md-4 col-md-push-4 animation_center'>
+						<h3>Photo</h3>
+						<div class='person'>
+							<a href='img/photo.jpg' class='popup'><img src='img/photo.jpg' alt='Photo of the author'></a>
+						</div>
+					</div>
+					<!-- =============== Photo (end) =============== -->
+
+					<!-- =============== About Me (start) =============== -->
+					<div class='col-md-4 col-md-pull-4 animation_left'>
+						<h3>About Me</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque id, aperiam, ut reprehenderit ducimus, accusamus fugit incidunt omnis cum tempora repellendus illo veritatis eum dolorem soluta sed, non nobis.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam distinctio recusandae autem modi odio ipsam debitis labore accusantium, nobis ab repellat libero tempore et dolorem error! A alias assumenda, in.</p>
+					</div>
+					<!-- =============== About Me (end) =============== -->
+
+					<!-- =============== Personal information (start) =============== -->
+					<div class='col-md-4 animation_right personal_last_block'>
+						<h3>Personal information</h3>
+						<h2 class='personal_header'>Khalin Oleg</h2>
+						<ul>
+							<li>Professional website development: development of design, HTML layout, landing on CMS WordPress</li>
+							<li>Birthday: 3 June 1988</li>
+							<li>Phone number: +9 999 999 99 99</li>
+							<li>E-mail: <a href='mailto:khalinoleg@outlook.com'>khalinoleg@outlook.com</a></li>
+							<li>Web-сайт: <a href='http://webdesign-master.ru' target='_blank'>www.webdesign-master.ru</a></li>
+						</ul>
+						<!-- =============== Social networks (start) =============== -->
+						<div class='social_wrap'>
+							<ul>
+								<li><a href='#' target='_blank'><i class='fa fa-twitter'></i></a></li>
+								<li><a href='#' target='_blank'><i class='fa fa-vk'></i></a></li>
+								<li><a href='#' target='_blank'><i class='fa fa-facebook'></i></a></li>
+								<li><a href='#' target='_blank'><i class='fa fa-instagram'></i></a></li>
+							</ul>
+						</div>
+						<!-- =============== Social networks (end) =============== -->
+					</div>
+					<!-- =============== Personal information (end) =============== -->
+				</div>
+			</div>
+		</div>
+		<!-- =============== Section content (end) =============== -->
+	</section>
+	<!-- =============== About me (end) =============== -->
+
+	<!-- =============== Resume (start) =============== -->
+	<section id='resume' class='s_resume'>
+		<!-- =============== Section title (start) =============== -->
+		<div class='section_header'>
+			<h2>Resume</h2>
+			<!-- =============== Section subtitle (start) =============== -->
+			<div class='s_descr_wrap'>
+				<div class='s_descr'>My knowledge and achievements</div>
+			</div>
+			<!-- =============== Section subtitle (end) =============== -->
+		</div>
+		<!-- =============== Section title (end) =============== -->
+
+		<!-- =============== Section content (start) =============== -->
+		<div class='section_content'>
+			<div class='container'>
+				<div class='row'>
+					<div class='resume_container'>
+						<!-- =============== Left column (Work) (start) =============== -->
+						<div class='col-md-6 col-sm-6 left'>
+							<!-- =============== Column title (start) =============== -->
+							<h3>Work</h3>
+							<!-- =============== Column title (end) =============== -->
+
+							<!-- =============== Column icon (start) =============== -->
+							<div class='resume_icon'>
+								<i class='icon-basic-case'></i>
+							</div>
+							<!-- =============== Column icon (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'>Ltd. "Pronkina fun" <strong>Programmer</strong></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum illo dolorem culpa fugiat maxime sint et enim hic voluptas. Mollitia qui modi quasi quae repellat cum optio facilis, voluptate ratione?</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'>Ltd. "Pronkina fun" <strong>Programmer</strong></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis dolor dolorem odit unde, id libero repudiandae labore veritatis, ullam voluptatibus ut distinctio et. Tenetur veritatis, optio deserunt labore, eligendi sequi impedit aliquam nam dolorum quibusdam nostrum autem placeat omnis pariatur quaerat laboriosam, sit enim cupiditate maiores dicta. Doloremque, ab?</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'>Ltd. "Pronkina fun" <strong>Programmer</strong></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae repellendus error, ad eligendi natus ratione voluptate accusamus consequatur suscipit eum. Suscipit soluta eaque sunt similique blanditiis assumenda tempore reprehenderit, omnis minus commodi eius nam officiis delectus incidunt id fugiat ea odio ad beatae nesciunt. Explicabo sint earum fugiat est, nam quis, quod, tempore fuga id qui, rem amet enim unde libero sequi eligendi. Quis reiciendis, perferendis modi eius maxime ab laudantium laborum tempora laboriosam nam dolor cum rerum, at, sit asperiores consequatur reprehenderit. Cumque sint est reiciendis fugiat perferendis, dolore, ut quod voluptatem explicabo facilis deleniti laboriosam repellat adipisci eos.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae repellendus error, ad eligendi natus ratione voluptate accusamus consequatur suscipit eum. Suscipit soluta eaque sunt similique blanditiis assumenda tempore reprehenderit, omnis minus commodi eius nam officiis delectus incidunt id fugiat ea odio ad beatae nesciunt. Explicabo sint earum fugiat est, nam quis, quod, tempore fuga id qui, rem amet enim unde libero sequi eligendi. Quis reiciendis, perferendis modi eius maxime ab laudantium laborum tempora laboriosam nam dolor cum rerum, at, sit asperiores consequatur reprehenderit. Cumque sint est reiciendis fugiat perferendis, dolore, ut quod voluptatem explicabo facilis deleniti laboriosam repellat adipisci eos.</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+						</div>
+						<!-- =============== Left column (end) =============== -->
+
+						<!-- =============== Right column (Study) (start) =============== -->
+						<div class='col-md-6 col-sm-6 right'>
+							<!-- =============== Column title (start) =============== -->
+							<h3>Study</h3>
+							<!-- =============== Column title (end) =============== -->
+
+							<!-- =============== Column icon (start) =============== -->
+							<div class='resume_icon'>
+								<i class='icon-basic-book-pen'></i>
+							</div>
+							<!-- =============== Column icon (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'><strong>Programmer</strong> Ltd. "Pronkina fun"</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure esse quos consectetur ipsam impedit illo voluptates, repellat, non odit molestiae optio et earum officia facilis minus, perspiciatis facere aut. Ullam.</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'><strong>Programmer</strong> Ltd. "Pronkina fun"</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae repellendus error, ad eligendi natus ratione voluptate accusamus consequatur suscipit eum. Suscipit soluta eaque sunt similique blanditiis assumenda tempore reprehenderit, omnis minus commodi eius nam officiis delectus incidunt id fugiat ea odio ad beatae nesciunt. Explicabo sint earum fugiat est, nam quis, quod, tempore fuga id qui, rem amet enim unde libero sequi eligendi. Quis reiciendis, perferendis modi eius maxime ab laudantium laborum tempora laboriosam nam dolor cum rerum, at, sit asperiores consequatur reprehenderit. Cumque sint est reiciendis fugiat perferendis, dolore, ut quod voluptatem explicabo facilis deleniti laboriosam repellat adipisci eos.</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+
+							<!-- =============== Resume item (start) =============== -->
+							<div class='resume_item'>
+								<div class='year'>2008-2015</div>
+								<div class='resume_discription'><strong>Programmer</strong> Ltd. "Pronkina fun"</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse suscipit provident eligendi repudiandae, similique quo non rem, in tempore unde, consequatur earum. Unde est deserunt accusamus quo libero recusandae pariatur rem doloremque nihil sequi. Natus distinctio fugit impedit dicta optio.</p>
+							</div>
+							<!-- =============== Resume item (end) =============== -->
+						</div>
+						<!-- =============== Right column (end) =============== -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- =============== Section content (end) =============== -->
+	</section>
+	<!-- =============== Resume (end) =============== -->
+
+	<!-- =============== Portfolio (start) =============== -->
+	<section id='portfolio' class='s_portfolio bg_dark'>
+		<!-- =============== Section title (start) =============== -->
+		<div class='section_header'>
+			<h2>Portfolio</h2>
+			<!-- =============== Section subtitle (start) =============== -->
+			<div class='s_descr_wrap'>
+				<div class='s_descr'>My recent work</div>
+			</div>
+			<!-- =============== Section subtitle (end) =============== -->
+		</div>
+		<!-- =============== Section title (end) =============== -->
+
+		<!-- =============== Section content (start) =============== -->
+		<div class='section_content'>
+			<div class='container'>
+				<div class='row'>
+					<!-- =============== Portfolio filter (start) =============== -->
+					<div class='filter_div controls'>
+						<ul>
+							<li class='filter active' data-filter='all'>All works</li>
+							<li class='filter' data-filter='.category-1'>Sites</li>
+							<li class='filter' data-filter='.category-2'>Identity</li>
+							<li class='filter' data-filter='.category-3'>Logos</li>
+						</ul>
+					</div>
+					<!-- =============== Portfolio filter (end) =============== -->
+
+					<!-- =============== Portfolio items (start) =============== -->
+					<div id='portfolio_grid'>
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ1/1.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ1/1.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ2/1.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ2/1.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ1/2.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ1/2.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-4'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ4/1.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ4/1.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ2/2.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ2/2.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ2/3.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ2/3.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-3'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ3/1.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ3/1.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ1/3.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ1/3.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ1/4.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ1/4.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ1/5.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ1/5.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-4'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ4/2.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ4/2.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+
+						<!-- =============== Portfolio item (start) =============== -->
+						<div class='mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-4'>
+							<!-- =============== Portfolio item short (start) =============== -->
+							<img src='img/portfolio-images/Categ4/3.jpg' alt='Work'>
+							<div class='port_item_cont'>
+								<h3>Title</h3>
+								<p>Description</p>
+								<a href='#' class='popup_content'>Look</a>
+							</div>
+							<!-- =============== Portfolio item short (end) =============== -->
+
+							<!-- =============== Portfolio item in detail (start) =============== -->
+							<div class='hidden'>
+								<div class='port_descr'>
+									<div class='modal-box-content'>
+										<button class='mfp-close' type='button' title='Close (Esc)'>×</button>
+										<h3>Title</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+										<img src='img/portfolio-images/Categ4/3.jpg' alt='Work'>
+									</div>
+								</div>
+							</div>
+							<!-- =============== Portfolio item in detail (end) =============== -->
+						</div>
+						<!-- =============== Portfolio item (end) =============== -->
+					</div>
+					<!-- =============== Portfolio items (end) =============== -->
+				</div>
+			</div>
+		</div>
+		<!-- =============== Section content (end) =============== -->
+	</section>
+	<!-- =============== Portfolio (end) =============== -->
+
+	<!-- =============== Contacts (start) =============== -->
+	<section id='contacts' class='s_contacts bg_light'>
+		<!-- =============== Section title (start) =============== -->
+		<div class='section_header'>
+			<h2>Contacts</h2>
+			<!-- =============== Section subtitle (start) =============== -->
+			<div class='s_descr_wrap'>
+				<div class='s_descr'>Leave your message</div>
+			</div>
+			<!-- =============== Section subtitle (end) =============== -->
+		</div>
+		<!-- =============== Section title (end) =============== -->
+
+		<!-- =============== Section content (start) =============== -->
+		<div class='section_content'>
+			<div class='container'>
+				<div class='row'>
+					<!-- =============== Contacts information (start) =============== -->
+					<div class='col-md-6'>
+						<div class='contact_box animation_left'>
+							<div class='contacts_icon icon-basic-geolocalize-05'></div>
+							<h3>Address:</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, commodi.</p>
+						</div>
+						<div class='contact_box animation_left'>
+							<div class='contacts_icon icon-basic-smartphone'></div>
+							<h3>Phone:</h3>
+							<p>+7 999 999 99 99</p>
+						</div>
+						<div class='contact_box animation_left'>
+							<div class='contacts_icon icon-basic-webpage-img-txt'></div>
+							<h3>Website:</h3>
+							<a href='#' target='_blank'>www.example.com</a>
+						</div>
+					</div>
+					<!-- =============== Contacts information (end) =============== -->
+
+					<!-- =============== Contacts form (start) =============== -->
+					<div class='col-md-6 col-sm-6'>
+						
+						<form class="callback">
+							<div class="success color_element"><span>Thanks for your application!</span></div>
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="Landing">
+							<input type="hidden" name="admin_email" value="admin@mail.com">
+							<input type="hidden" name="form_subject" value="Form from the site 'Landing'">
+							<!-- END Hidden Required Fields -->
+							<label class='form-group'>
+								<span class='color_element'>*</span> Your name:
+								<input type='text' name='name' placeholder='Your name' required>
+							</label>
+							<label class='form-group'>
+								<span class='color_element'>*</span> Your e-mail address:
+								<input type='email' name='email' placeholder='Ваш e-mail' required>
+							</label>
+							<label class='form-group'>
+								<span class='color_element'>*</span> Your message:
+								<textarea name='message' placeholder='Your message' data-validation-required-message='You did not enter a message' required></textarea>
+								<span class='help-block text-danger'></span>
+							</label>
+							<button>Send</button>
+						</form>
+					</div>
+					<!-- =============== Contacts form (end) =============== -->
+				</div>
+			</div>
+		</div>
+		<!-- =============== Section content (end) =============== -->
+	</section>
+	<!-- =============== Contacts (end) =============== -->
+
+	<!-- =============== Footer (start) =============== -->
+	<footer class='main_footer bg_dark'>
+		<div class='container'>
+			<div class='col-md-12'>
+				<!-- =============== Copy-paste (start) =============== -->
+				&copy; 2017 Oleg Khalin
+				<!-- =============== Copy-paste (end) =============== -->
+
+				<!-- =============== Social networks (start) =============== -->
+				<div class='social_wrap'>
+					<ul>
+						<li><a href='#twitter' target='_blank'><i class='fa fa-twitter'></i></a></li>
+						<li><a href='#vk' target='_blank'><i class='fa fa-vk'></i></a></li>
+						<li><a href='#facebook' target='_blank'><i class='fa fa-facebook'></i></a></li>
+						<li><a href='#instagram' target='_blank'><i class='fa fa-instagram'></i></a></li>
+					</ul>
+				</div>
+				<!-- =============== Social networks (end) =============== -->
+			</div>
+		</div>
+	</footer>
+	<!-- =============== Footer (start) =============== -->
+	
+	<!-- =============== Javascripts (start) =============== -->
+	<script src='js/jquery-2.1.3.min.js'></script>
+	<script src='js/parallax.min.js'></script>
+	<script src='js/jquery.magnific-popup.min.js'></script>
+	<script src='js/mixitup.min.js'></script>
+	<script src='js/PageScroll2id.min.js'></script>
+	<script src='js/waypoints.min.js'></script>
+	<script src='js/animate-css.js'></script>
+	<script src='js/jqBootstrapValidation.js'></script>
+	<script src='js/common.js'></script>
+	<!-- =============== Javascripts (start) =============== -->
+</body>
+</html>
